@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container{
+    background-color: #4c7ec3a8;
+    width: 40%;
+    min-height: 400px;
+    height: auto;
+    padding: 20px 0;
+    
+}
+header{
+    width: 100%;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+header h1{
+    padding-bottom: 10px;
+}
+
+.iphone{
+    display: flex;
+    padding: 10px;
+}
+
+.img{
+    width: 100%;
+    flex: 1;
+}
+.details1{
+    flex: 1;
+    text-align: justify;
+}
+.img img{
+    max-width: 100%;
+}
+details{
+    margin: 10px 0;
+}
+.details1 h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.details1 h2{
+    font-size: 20px;
+}
+ul {
+    
+    list-style: none;
+    margin-left: 20px;
+}
+
+.flex-colors {
+    align-items: center;
+}
+
+.flex-colors ul{
+    margin-bottom: 20px;
+}
+.flex-colors li{
+    display: flex;
+    padding: 10px 0;
+}
+#silver-box, 
+#pink-box,
+#grey-box{
+    width: 0;
+    height: 0;  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#silver-box{
+    border:10px solid rgb(179, 172, 172);
+}
+
+#pink-box{
+    border:10px solid rgba(212, 35, 168, 0.664);
+}
+
+#grey-box{
+    border:10px solid rgb(105, 97, 97);
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.button a:hover{
+    background-color: rgb(20, 83, 155);
+}
+
+.button a:active{
+    background-color: rgb(17, 134, 62);
+    box-shadow: 0 0 5px 5px rgb(53, 146, 89);
+}
+
